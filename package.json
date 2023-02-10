@@ -4,8 +4,8 @@
   "description": "Static versions of nygov and governor for single page redirects and one-off tools",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve & npx tailwindcss -i tailwind-setup.css -o css/tailwind.css --minify --watch",
-    "test":"pa11y-ci"
+    "start": "npx eleventy --serve & npx tailwindcss -i tailwind-setup.css -o css/tailwind.css --minify --watch",
+    "test": "pa11y-ci"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/OGS-Digital-Service/nygov-static#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0",
     "pa11y": "^6.2.3",
     "tailwindcss": "^3.2.4"
   }
