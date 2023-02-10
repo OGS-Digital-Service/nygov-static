@@ -1,7 +1,7 @@
 {
   "name": "nygov-static",
   "version": "1.0.0",
-  "description": "Static versions of nygov and governor for single page redirects and one-off tools",
+  "description": "Static version of ny.gov",
   "main": "index.js",
   "scripts": {
     "start": "npx eleventy --serve & npx tailwindcss -i tailwind-setup.css -o css/tailwind.css --minify --watch",
